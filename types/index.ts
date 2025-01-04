@@ -1,4 +1,4 @@
-export type ShowTypeEvent = {
+export type ShowEventType = {
   EventCensor: string;
   EventDuration: string;
   EventGenre: string;
@@ -7,9 +7,11 @@ export type ShowTypeEvent = {
   EventTitle: string;
 };
 
+export type ShowTitleTypes = string[];
+
 export type ChildEventType = {};
 
-export type TelNotificationType = {
+export type telnotifyType = {
   msg: string;
-  type?: "error" | "success";
+  //   type?: "error" | "success";
 };
